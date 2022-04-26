@@ -1,0 +1,191 @@
+.container-fluid.nav-container{
+background-color: rgb(253, 253, 253);
+display: flex;
+}
+
+.navbar-brand.name{
+    color: rgb(0, 0, 0);
+    font-family: 'Inconsolata', monospace;
+    font-size: 2em
+}
+.navbar-brand.name:active{
+    color: rgb(247, 242, 242) ;
+}
+
+.container-img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15rem;
+    background-image: url("../img/cvfoto.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid lightgrey 2px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder
+}
+h2{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:'Inconsolata', monospace ;
+}
+h3{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    font-family:'Inconsolata', monospace ;
+}
+ul-contact{
+    font-family: 'Inconsolata', monospace; 
+    list-style: none;
+}
+
+.black-line{
+    width: 15rem;
+    height: 3px;
+    margin-left: 31rem;
+    background-color: black;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    margin-right: 30rem;
+    color: black;
+   background-color: lightcoral;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    margin-right: 30rem;
+   margin-top: 5rem;
+    background-color: lightgoldenrodyellow;
+}
+#language{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    margin-right: 30rem;
+    margin-top: 5rem;
+    background-color: lightseagreen;
+}
+
+#experience{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    margin-right: 30rem;
+    margin-top: 5rem;
+    background-color: lightgreen;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    margin-right: 30rem;
+    margin-top: 5rem;
+    background-color: lightblue;
+}
+#knowledge{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25rem;
+    margin-right: 30rem;
+    margin-top: 5rem;
+    background-color: lightpink;
+}
+
+.ul-knowledge{
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    #contact{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-right: 30rem;
+       margin-top: 5rem;
+        background-color: lightgoldenrodyellow;
+        width: 90%;
+    }
+    #about-me{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        color: black;
+       background-color: lightcoral;
+       width: 90%;
+    }
+    #experience{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        background-color: lightgreen;
+        width: 90%;
+    }
+    #education{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        background-color: lightblue;
+        width: 90%;
+    }
+    #knowledge{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        background-color: lightpink;
+        width: 90%;
+    }
+    #language{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        background-color: lightseagreen;
+        width: 90%;
+    }
+    .black-line{
+        width: 15rem;
+        height: 3px;
+        margin-left: 2rem;
+        background-color: black;
+        width: 90%;
+    }
+}
